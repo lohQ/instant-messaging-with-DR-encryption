@@ -20,15 +20,16 @@ A chat app that combined firebase backend (authentication, firestore, cloud func
 # Structure
 
 Three major modules: login, chatroom_list, and messaging. 
-1. Login module handles 
+1. Login module 
     - authentication with google sign in
     - cache user locally
-2. Chatroom_list module handles
+    - => so to allow sign in with one click and auto login if not logged out
+2. Chatroom_list module
     - initializing eThree
     - interacting with firebase
     - caching all chatrooms locally
     - => so to allow viewing available user list, creating chatroom, viewing existing chatroom list, and deleting chatroom
-3. Messaging module handles
+3. Messaging module
    - interacting with firebase
    - caching all messages locally
    - => so to allow viewing previous messages, sending (encrypt) and receiving (decrypt) message
