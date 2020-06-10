@@ -27,12 +27,12 @@ Three major modules: login, chatroom_list, and messaging.
     - initializing eThree
     - interacting with firebase
     - caching all chatrooms locally
-    => so to allow viewing available user list, creating chatroom, viewing existing chatroom list, and deleting chatroom
+    - => so to allow viewing available user list, creating chatroom, viewing existing chatroom list, and deleting chatroom
 3. Messaging module handles
    - interacting with firebase
    - caching all messages locally
-   => so to allow viewing previous messages, sending (encrypt) and receiving (decrypt) message
+   - => so to allow viewing previous messages, sending (encrypt) and receiving (decrypt) message
 4. Extra module: push notification
-  - read payload and redirects to target chatroom when notification is clicked (onMessage, onResume)
-  - currently nothing configured for onLaunch 
+   - read payload and redirects to target chatroom when notification is clicked (onMessage, onResume)
+   - currently nothing configured for onLaunch 
  
