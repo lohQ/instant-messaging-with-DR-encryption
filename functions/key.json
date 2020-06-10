@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "stone-semiotics-279909",
+  "private_key_id": "c5399dcea3f2b83b8f38d7b5c031a423b8a2f45f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD9oAiCd0uZCh/4\nPAaDsTEBWyMbjp+l69hiEmWyGxphSdTA5LA8LGD6jgUmEl1afCYkwSMdCy2IwZ3/\nWw10NXWMI6FYPGTBApXgclrzo7XJTZfTIeoEY6kjCxprOzwL1AYiwcZrE3YgAD6K\nZJUK3KmWdSCuehaxu62FhPP+ww0SZaf6Y54YII7u8o8GYvskrZx/aopVvWsCiLWx\n5bb3oEcpt3E9TxZzQsHTnrZs3Tm3Nx1fTth87Q58TQuhresLEr7PWsFF2vWRRQ6/\nE4CoU11o8OUAfuIq/MFtXUZkseJPjQpvK8WBNM+w/NcqGaqUzf/6kgw6gCKdA12j\nHg8S13dXAgMBAAECggEAE4uSLE+6NTSJCy3BCMQOdT7LQVPn7Lb0qXYmfSfGjCnO\n6gCVrkVzQcvRDMKMjC0WGW4C4TmbzDazkNq4+jQmd2LFi9G3qAIlf7MAXFdI6pb+\ntMgfyy/M+ITiB9J8SaMQx/vr6ROKXmP2bd7bd4dS0GP9XUTOW+sNL8VzsjXg24Jv\nve/UvG7qCeEzDTpHWMa1MTmoRCQpL3mIg+qhMJqc7h5Rlt8Fdxqpiu8Nv9+bl8Il\nRYTJyGcAg3gIe1WldmCVG2GfO8/AE8n4aT/LBnumFMf0YOF2cfbHLEdJMgiTWWB0\na4U6Jhy4AS5+OuNNuPEv9WhX6Hd9bxw4Xhk928LqCQKBgQD/lnw4mNrW8EDBNwV6\na0Ra9DUOQZoOuoxEvBHJ4AuX6JuX97IEV1T2iyxcWHSZGzXtOLl2rFlx2SmQZIVf\nL2lEbXH3l5W006pbQAnwnfIpJlJqflgNl+wDPy2/XsmKUyZVLOEotNR62SK5cGDp\nIAByCWlNDdUDcyZCBgtEeZI2LwKBgQD+CLzcRW3953eklDiMJtGMXNzBdJnnPFEX\nPrW8a3REkdEfvnk+GZc8ndnl9QPChseUYMU3YRLk0YqIX7IfvT82G4Rx6vHm61+J\nvlYc8HgjIZgO9OrgDxzzp0gP0F4FnspSA1RWBUfEYySU0rWOhxSfx4dqgn0NI4uT\nx132xfAvWQKBgQCbwRceXnguN+ceV+tsuOXFD8EtWOkLRL+qO3oTrgciocwABiBj\n6NyMCjAUbotPqndogwLywQEZEh/0MG3encPmwVOMcMH4mmzcguAL1BT44rOi1i/O\nyOA48k1sq9TiCN35Vgo4hkpeOuigXU2Rg8EBvZ6AKIfBPHD6FzjSl8t0XQKBgBcH\nSb+aF6d9tS3ZNesWlcZooKZ04ILCyAMYbzcecpLIuTFsfecwQLKBCMC83lNjDnKX\n9yjXBvRxPmKwciBIcpOAGRiOmNE7IxUEiR/keK+Omw84Cpa3KAO6dWDhnbRaubKH\nlLybi+70odtP4p+CBU+asd7o51cqkruZxh3ZwbU5AoGATsZo17O4VDtzTC66REKS\nvEaQupKiTQCui4vRUOd70gEfn+BXdlL0TAG+1IcpTOBwCFKUXAwGrB263t4WO+dY\nCQHBDhm51cZQRGD8C3BsMtwf++NUfaxBezv6+Hq8PVZGxVeS09OVh2ffnlp4jkEs\noigCj4+1FH94hmCUK8OQJv8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fcm-account@stone-semiotics-279909.iam.gserviceaccount.com",
+  "client_id": "100033504988132566834",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fcm-account%40stone-semiotics-279909.iam.gserviceaccount.com"
+}
