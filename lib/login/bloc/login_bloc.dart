@@ -14,10 +14,10 @@ class LoginBloc extends Bloc<LoginEvent, LoginState> {
 
   void onAutoLogin() async {
     add(LoginEventInProgress());
+    await UserRepo.getInstance().init();  // manually initializing singleton...
     final isSignedIn = await LoginRepo.getInstance().isSignedIn();
     if(isSignedIn){
       // and has user record locally
-      await UserRepo.getInstance().init();  // manually initializing singleton...
       final user = UserRepo.getInstance().getCurrentUser();
       if(user != null){
         add(LoginSuccessEvent());
