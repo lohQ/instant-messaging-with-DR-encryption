@@ -41,29 +41,38 @@ class SendMessageRowState extends State<SendMessageRow> {
             child: LinearProgressIndicator()
           );
         }else{
-          return Row(
-            children: <Widget>[
-              Expanded(
-                child: Padding(
-                  padding: EdgeInsets.all(10),
-                  child: TextField(
-                    controller: _textController,
-                    decoration: InputDecoration(border: OutlineInputBorder(), hintText: "type something here")
-                  ))
-              ),
-              Container(
-                margin: EdgeInsets.all(10),
-                decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.lightBlue),
-                child: IconButton(
-                  icon: Icon(Icons.send),
-                  onPressed: (){
-                    BlocProvider.of<MessagingBloc>(context).add(SendMessageEvent(_textController.text));
-                    _textController.text = "";
-                  },
+          return Padding(
+            padding: EdgeInsets.all(10),
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                    child: TextField(
+                      controller: _textController,
+                      decoration: InputDecoration(
+                        border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)), 
+                        hintText: "type something here"
+                      )
+                    )
+                ),
+                Container(
+                  margin: EdgeInsets.only(left: 10),
+                  decoration: BoxDecoration(
+                    shape: BoxShape.rectangle, 
+                    borderRadius: BorderRadius.circular(10),
+                    color: Color(0xFF400040)),
+                  child: IconButton(
+                    icon: Icon(Icons.send, color: Colors.white),
+                    onPressed: (){
+                      BlocProvider.of<MessagingBloc>(context).add(SendMessageEvent(_textController.text));
+                      _textController.text = "";
+                    },
+                  )
                 )
-              )
-            ],
+              ],
+            )
           );
+          
+          
         }
       },
     );

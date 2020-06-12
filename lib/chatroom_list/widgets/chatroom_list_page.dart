@@ -43,16 +43,9 @@ class ChatroomItem extends StatelessWidget{
     return ListTile(
       contentPadding: EdgeInsets.all(10),
       title: Text(room.displayName),
-      leading: Container(
-        height: MediaQuery.of(context).size.width/4,
-        width: MediaQuery.of(context).size.width/4,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          image: DecorationImage(
-            image: NetworkImage(room.photoUrl),
-            fit: BoxFit.cover
-          )
-        ),
+      leading: CircleAvatar(
+          backgroundImage: NetworkImage(room.photoUrl),
+          radius:MediaQuery.of(context).size.width/12
       ),
       onTap: (){
         Navigator.push(context, 

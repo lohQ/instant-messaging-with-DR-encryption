@@ -4,7 +4,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../bloc/messaging_bloc.dart';
 import 'message_item.dart';
-// import '../models/message.dart';
 
 class MessageList extends StatefulWidget{
   @override
@@ -12,8 +11,6 @@ class MessageList extends StatefulWidget{
 }
 
 class MessageListState extends State<MessageList>{
-
-  // final messages = List<LocalMessage>();
 
   @override
   Widget build(BuildContext context){

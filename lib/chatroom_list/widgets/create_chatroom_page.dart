@@ -49,16 +49,9 @@ class AvailableUserItem extends StatelessWidget {
     return ListTile(
       contentPadding: EdgeInsets.all(10),
       title: Text(user.displayName),
-      leading: Container(
-        height: MediaQuery.of(context).size.width/4,
-        width: MediaQuery.of(context).size.width/4,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          image: DecorationImage(
-            image: NetworkImage(user.photoUrl),
-            fit: BoxFit.cover
-          )
-        ),
+      leading: CircleAvatar(
+          backgroundImage: NetworkImage(user.photoUrl),
+          radius:MediaQuery.of(context).size.width/12
       ),
       onTap: () async {
         final eThreeInitState = BlocProvider.of<EthreeInitBloc>(context).state;

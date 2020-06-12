@@ -31,6 +31,7 @@ class MessagingPage extends StatelessWidget {
     return Column(
       children: <Widget>[
         Expanded(child: MessageList()),
+        Divider(height: 1, thickness: 2),
         SendMessageRow(),
       ],
     );

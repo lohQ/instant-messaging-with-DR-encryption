@@ -19,16 +19,18 @@ class LoginPage extends StatelessWidget {
               } else if (state.error != null) {
                   return Text(state.error);
               } else {
-                  return ButtonTheme(
+                  return 
+                  ButtonTheme(
                     minWidth: MediaQuery.of(context).size.width/4*3,
                     height: MediaQuery.of(context).size.height/20,
-                    child: RaisedButton(
+                    child: 
+                    RaisedButton(
                       onPressed: () => BlocProvider.of<LoginBloc>(context).onLoginGoogle(),
                       child: Text(
                         "Login with Google",
                         style: TextStyle(color: Colors.white),
                       ),
-                      color: Colors.redAccent,
+                      color: Color(0xFF400040),
                     ),
                   );
               }
